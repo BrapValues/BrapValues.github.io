@@ -20,8 +20,17 @@ p {
     line-height: 1;
     margin: 4pt;
 }
+h2 {
+    overflow-wrap: break-word;
+}
 a{
     color: #2222DD;
+}
+sup {
+    font-size: xx-large;
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+    cursor: help;
 }
 a:hover{
     color: #22DDDD;
